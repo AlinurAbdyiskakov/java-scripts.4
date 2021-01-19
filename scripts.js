@@ -18,3 +18,4 @@ if (a < b){
 if(a == b){
     console.log('A is equal to B');
 }
+// if если
