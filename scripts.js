@@ -70,7 +70,5 @@ if (a == 9){
 if (a == 10){
     console.log("it is a hexagon");
 }
-if (a == 12){
-    console.log(lorem12);
-}
+
 
