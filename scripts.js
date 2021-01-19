@@ -71,17 +71,73 @@
 //     console.log("it is a hexagon");
 // }
 
-let a = prompt("write text naumber");
-let b = a * 10;
-if(b < 100){
-    console.log("b манше 100");
+// let a = prompt("write text naumber");
+// let b = a * 10;
+// if(b < 100){
+//     console.log("b манше 100");
+// }
+// if (b > 100){
+//     console.log("b болше чем 100");
+// }
+// if(b == 100){
+//     console.log("b равен 100");
+// }
+
+// const Kg = 1991;
+// let currentYear = 2021;
+// let age = +prompt("How old are you?");
+
+// let birthYear = currentYear - age;
+
+// if (birthYear > Kg){
+//     console.log(jchjf);
+// }
+// if (birthYear <= Kg){
+//     console.log(dsfg);
+// }
+
+let result = 0;
+
+//question
+let answer1 = prompt(
+    "what is  the  offical name of Java scripts"
+);
+let answer2 = prompt(
+    "what html stands far? "
+)
+let answer3 = prompt(
+   "Which html tag is used for paragraphs?" 
+)
+if(answer3 == "Hav many lakes are in Kg"){
+    result = result + 5;
+
+
+   
+    console.log(" Your've earned " + result + " point ");
 }
-if (b > 100){
-    console.log("b болше чем 100");
+if(answer2 == "css"){
+    result = result + 5;
+
+
+   
+    console.log(" Your've earned " + result + " point ");
 }
-if(b == 100){
-    console.log("b равен 100");
+if (answer1 == "ECMAScript"){
+    result = result + 5;
+
+
+    //show  results
+    console.log(" Your've earned " + result + " point ");
 }
+let answer5 = confirm("Is Kyrgystan a presidetial republic?");
+if(answer5){
+    result = result + 5;
+
+
+    //show  results
+    console.log(" Your've earned " + result + " point ");
+}
+
 
 
 
