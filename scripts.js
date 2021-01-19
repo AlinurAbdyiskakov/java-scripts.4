@@ -21,13 +21,53 @@
 // }
 // // if если
 
-let a = prompt("what is A");
-let b = prompt("What is B");
+// let a = prompt("what is A");
+// let b = prompt("What is B");
 
-if (a / b){
-    console.log('A is Does not equal than A');
+// let c =a % b;
+
+// if (c == 0){
+//     console.log("A  is diviible by B  without remainer");
+// }
+// if (c > 0){
+//     console.log("A  is  Not diviible by B  without remainer");
+// }
+
+let a = prompt("How many sides does the shap have");
+if ( a == 1){
+    console.log("It is a circle!");
 }
 
-if  (a % b){
-console.log('A Equals is B');
+if (a == 2){
+  {
+        console.log("It is a triangle");
+    }
 }
+
+if (a == 3){
+    console.log("It is a triangle");
+}
+if (a == 4){
+    console.log(("it is a square"));
+}
+if (a == 5){
+    console.log("it is a pentagon");
+}
+
+
+if (a == 6){
+    console.log("It is a hexagon");
+}
+if (a == 7){
+    console.log(("it is heptagon"));
+}
+if (a == 8){
+    console.log("it is a octagon");
+}
+if (a == 9){
+    console.log(("it is desithagon"));
+}
+if (a == 10){
+    console.log("it is a hexagon");
+}
+
