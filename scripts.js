@@ -71,5 +71,18 @@
 //     console.log("it is a hexagon");
 // }
 
+let a = prompt("write text naumber");
+let b = a * 10;
+if(b < 100){
+    console.log("b манше 100");
+}
+if (b > 100){
+    console.log("b болше чем 100");
+}
+if(b == 100){
+    console.log("b равен 100");
+}
+
+
 
 
